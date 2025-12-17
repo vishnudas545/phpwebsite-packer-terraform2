@@ -4,7 +4,7 @@ data "aws_ami" "example" {
 
   filter {
     name   = "name"
-    values = ["${var.project_name}-${project_env}-*"]
+    values = ["${var.project_name}-${var.project_env}-*"]
   }
 
   filter {

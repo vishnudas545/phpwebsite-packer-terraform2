@@ -48,7 +48,6 @@ resource "aws_security_group" "ec2_sg" {
     Name        = "${var.project_name}-${var.project_env}-sg"
     Project     = var.project_name
     Environment = var.project_env
-    Owner       = var.project_owner
   }
 }
 
