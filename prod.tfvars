@@ -1,0 +1,6 @@
+instance_type = "t2.micro"
+project_name = "shopping"
+project_env = "prod"
+hosted_zone_id = "Z0064504112XUBDNKJU99"
+hosted_zone_name = "vishnuwedspreksha.at"
+hostname = "shopping"
