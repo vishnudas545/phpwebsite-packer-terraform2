@@ -1,7 +1,3 @@
-data "aws_route53_zone" "selected" {
-  name         = "vishnuwedspreksha.art"
-  private_zone = false
-}
 data "aws_ami" "example" {
   most_recent      = true
   owners           = ["self"]
